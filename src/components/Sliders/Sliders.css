@@ -1,0 +1,43 @@
+.slider-container{
+    width: 15vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-range__slider{
+    background: #E50914;
+    border: none;
+}
+  
+.input-range__track {
+    background: #333;
+}
+  
+.input-range__track--active {
+    background: #E50914;
+}
+  
+.input-range__label--value .input-range__label-container {
+    background: #E50914;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.65rem;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+  
+.input-range__label--min .input-range__label-container, .input-range__label--max .input-range__label-container
+{
+    font-family: Montserrat;
+    font-size: 0.65rem;
+    color: #DDD;
+    left: 0;
+}
+  
+.input-range__label--max .input-range__label-container {
+    left: 25%;
+}
+  
